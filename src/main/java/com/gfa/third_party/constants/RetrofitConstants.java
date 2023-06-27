@@ -1,6 +1,6 @@
-package com.gfa.third_party.contants;
+package com.gfa.third_party.constants;
 
-public class RetrofitContants {
+public class RetrofitConstants {
 
     public static final String BASE_URL = "https://jsonplaceholder.typicode.com/";
 }

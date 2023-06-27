@@ -1,6 +1,6 @@
 package com.gfa.third_party.util;
 
-import com.gfa.third_party.contants.RetrofitContants;
+import com.gfa.third_party.constants.RetrofitConstants;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -12,7 +12,7 @@ public class RetrofitUtil {
 
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl(RetrofitContants.BASE_URL)
+                    .baseUrl(RetrofitConstants.BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
